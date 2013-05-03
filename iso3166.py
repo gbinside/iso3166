@@ -260,3 +260,10 @@ iso3166_alpha2 = {'AF' : 'Afghanistan',
 'ZM' : 'Zambia',
 'ZW' : 'Zimbabwe',
 }
+
+def test():
+    from pprint import pprint
+    pprint (iso3166_alpha2)
+
+if __name__=="__main__":
+    test()
